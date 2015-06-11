@@ -45,3 +45,14 @@ class World:
         afc_t[_idx] = _terr
 
     # Australia
+    _names = ["Eastern Australia", "Indonesia", "New Guinea", "Western Australia"]
+    aus_t = {}
+    for _idx, _name in enumerate(_names):
+        _terr = Territory(_idx, _name, afc, [])
+        afc_t[_idx] = _terr
+
+    # topology
+    # North America
+    
+
+    
